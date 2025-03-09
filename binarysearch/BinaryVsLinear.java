@@ -65,5 +65,7 @@ public class BinaryVsLinear {
 			totalLinearTime += (endTime2 - startTime2);
 		}
 		System.out.println("tempo medio de exec. linear_search: " + totalLinearTime / numTests + " nanosegundos");
+		
+		sc.close();
 	}
 }
